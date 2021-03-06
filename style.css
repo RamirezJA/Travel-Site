@@ -83,7 +83,7 @@ nav ul {
 
 .hero {
   min-height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
     url('/img/landing-page.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +155,7 @@ nav ul {
 .benefits-head {
   background: #343c44;
   padding: 3rem;
-  min-height: 30vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,6 +192,7 @@ nav ul {
 .card h4,
 p {
   padding: 1rem;
+  line-height: 1.8;
 }
 
 .card-icon {
@@ -266,6 +267,12 @@ footer ul {
   flex: 1 1 40rem;
   justify-content: space-between;
   align-items: center;
+}
+
+button:focus {
+  background: #2c3f57;
+  outline-style: solid;
+  outline-color: white;
 }
 
 /*Media Query*/
